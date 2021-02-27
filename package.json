@@ -11,11 +11,9 @@
     "firebase": "^8.2.8",
     "framer-motion": "^3.6.0",
     "lodash": "^4.17.20",
-    "react": "^0.0.0-experimental-af3d52611",
-    "react-dom": "^0.0.0-experimental-af3d52611",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "reactfire": "^3.0.0-rc.0",
-    "tailwindcss": "^2.0.2",
     "uuid": "^8.3.2",
     "web-vitals": "^0.2.4"
   },
