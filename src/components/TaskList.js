@@ -1,20 +1,9 @@
-import React, { useEffect, useContext } from 'react';
+import React, { useContext } from 'react';
 import TasksContext from '../context';
-import { firestore } from '../firebase';
-const db = firestore
 
 const TaskList = () => {
   const { state, dispatch } = useContext(TasksContext);
   
-  // useEffect(() => {
-  //   const docRef = db.collection("tasklist").doc("tasks");
-  //   return docRef.onSnapshot(snapshot => {
-  //     if (!snapshot.data()) return;
-  //     dispatch({ type: "UPDATE_TASK", payload: snapshot.data().tasks })
-  //   });
-  // }, [ dispatch ]); 
-
-
   return (
     <ul>
       {state.tasks.map(task => (
